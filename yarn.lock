@@ -9,10 +9,12 @@ agent-base@6:
   dependencies:
     debug "4"
 
-centra@^2.4.2, centra@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/centra/-/centra-2.5.0.tgz#854c30f9a3ff50da49fa69a8cb441aa25aa1e8e8"
-  integrity sha512-CnSF1HD8vOOgNbE4P2fZEhdhfAohvpcF3DSdSvEcSHDAZvr+Xfw73isT8SXJJc3VMBqSwjXhr29/ikHUgFcypg==
+centra@^2.5.0, centra@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/centra/-/centra-2.7.0.tgz#4c8312a58436e8a718302011561db7e6a2b0ec18"
+  integrity sha512-PbFMgMSrmgx6uxCdm57RUos9Tc3fclMvhLSATYN39XsDV29B89zZ3KA89jmY0vwSGazyU+uerqwa6t+KaodPcg==
+  dependencies:
+    follow-redirects "^1.15.6"
 
 debug@4:
   version "4.3.2"
@@ -20,6 +22,11 @@ debug@4:
   integrity sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
   dependencies:
     ms "2.1.2"
+
+follow-redirects@^1.15.6:
+  version "1.15.6"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.6.tgz#7f815c0cda4249c74ff09e95ef97c23b5fd0399b"
+  integrity sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA==
 
 https-proxy-agent@^5.0.0:
   version "5.0.0"
@@ -34,9 +41,9 @@ ms@2.1.2:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-phin@^3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/phin/-/phin-3.6.0.tgz#5c70debfc847d04a1b2bf72409a6c9767bc4d915"
-  integrity sha512-nYY4Qh/yGCoxcwOAS2UfCM8+nVJcbI4f9NC4M4zPAsuswnIIS2aB14uYAbvdxP/4DqzXfrpadT2WQOx9mLDyTA==
+phin@^3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/phin/-/phin-3.7.1.tgz#bf841da75ee91286691b10e41522a662aa628fd6"
+  integrity sha512-GEazpTWwTZaEQ9RhL7Nyz0WwqilbqgLahDM3D0hxWwmVDI52nXEybHqiN6/elwpkJBhcuj+WbBu+QfT0uhPGfQ==
   dependencies:
-    centra "^2.4.2"
+    centra "^2.7.0"

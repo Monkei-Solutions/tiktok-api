@@ -7,7 +7,7 @@
   "dependencies": {
     "centra": "^2.5.0",
     "https-proxy-agent": "^5.0.0",
-    "phin": "^3.6.0"
+    "phin": "^3.7.1"
   },
   "repository": {
     "type": "git",
